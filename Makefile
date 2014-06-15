@@ -1,4 +1,4 @@
-NOTEBOOKS = $(wildcard five_liners/*.ipynb)
+NOTEBOOKS = $(wildcard *.ipynb five_liners/*.ipynb)
 PYS = $(NOTEBOOKS:.ipynb=.py)
 RSTS = $(NOTEBOOKS:.ipynb=.rst)
 PDFS = $(NOTEBOOKS:.ipynb=.pdf)
