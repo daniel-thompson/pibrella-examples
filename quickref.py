@@ -41,7 +41,7 @@ pibrella.light
 # * `pibrella.output` contains an object for every output pin: e, f, g, h
 # * `pibrella.light` contains an object for every light: red, yellow, green
 
-### Examples
+# Examples:
 
 # In[ ]:
 
@@ -70,7 +70,7 @@ pibrella.output.off()
 # * `.blink()` dauses the output to turn on and off without fading. Variants include: `.blink(time)` and `.blink(time_on, time_off)`
 # * `.read()` gets the current state of the pin
 
-### Examples
+# Examples:
 
 # In[ ]:
 
@@ -94,7 +94,7 @@ pibrella.output.off(); pibrella.light.off()
 # * `.read()` gets the current state of the input
 # * `.changed(handler)` allows a change of state handler to be installed
 
-### Examples
+# Examples:
 
 # In[ ]:
 
@@ -118,6 +118,8 @@ pibrella.button.changed(button_pressed)
 # * `.success()` plays a happy sound
 # * `.fail()` plays a sad sound
 # * `.melody((notes), note_length)` plays the notes in a loop. To avoid looping try `.melody((notes), note_length, False)` 
+
+# Examples:
 
 # In[ ]:
 
