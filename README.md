@@ -24,4 +24,8 @@ Hints
 The five_liners section is intended to contain programs so small you can
 easily print them out and type them in yourself. This allows you to run
 though the things to try and the challenges directly from the python command
-prompt.
+prompt. Use 'make' to generate .pdf handouts describing each activity.
+
+The python code (ending in .py) is automatically generated from ipython
+notebooks (ending in .ipynb). This allows for better quality handouts to
+be generated.
